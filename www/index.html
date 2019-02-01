@@ -5,11 +5,65 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <title>framework7</title>
+    <link rel="stylesheet" href="css/framework7.min.css">
+    <link rel="stylesheet" href="css/stles.css">
 </head>
 
 <body>
-    <h1>hello</h1>
+    <div id="app">
+        <div class="panel panel-left panel-cover">
+            <div class="list inset">
+                <ul>
+                    <li>
+                        <a href="#" class="item-link list-button">Button 1</a>
+                    </li>
+                    <li>
+                        <a href="#" class="item-link list-button">Button 2</a>
+                    </li>
+                    <li>
+                        <a href="#" class="item-link list-button">Button 3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="view view-main">
+            <div class="page" data-name="home">
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <div class="left"><a href="#" class="panel-open">Left</a></div>
+                        <div class="title">title for thisssss</div>
+                        <div class="right">Right</div>
+                    </div>
+                </div>
+                <div class="page">
+                    <div class="navbar">
+                        ...
+                    </div>
+                    <!-- Fixed Toolbar -->
+                    <div class="toolbar toolbar-bottom-md">
+                        <div class="toolbar-inner">
+                            <a class="link" href="/page2/">pg 2</a>
+                            <a class="link">pg 3</a>
+                            <a class="link">pg 4</a>
+                        </div>
+                    </div>
+                    <div class="page-content">
+
+                        <div class="block">
+                            <p>woohohoohhoho</p>
+                            ...
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end home page -->
+        </div><!-- end main view -->
+    </div> <!-- end app -->
+
+
+
     <script type="text/javascript" src="cordova.js"></script>
+    <script src="js/framework7.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
